@@ -70,6 +70,15 @@ Replace `YOUR_CLIENT_ID` and adjust permissions as needed.
 - The `/jolly` command is a toggle per target user per guild. Run it again with the same user to stop following them.
 - If you want to follow multiple users concurrently, just run `/jolly` for each of them.
 
+## Deploying to Raspberry Pi
+
+For 24/7 hosting on a Raspberry Pi, see **[DEPLOY_PI.md](./DEPLOY_PI.md)** for a complete step-by-step guide including:
+- Installing Node.js and FFmpeg on the Pi
+- Cloning from GitHub
+- Setting up systemd or PM2 for auto-restart
+- Transferring media files
+- Security and update procedures
+
 ## Troubleshooting
 
 - If commands don't show up immediately when registering globally (without `GUILD_ID`), allow up to 1 hour. Using `GUILD_ID` is instant.
